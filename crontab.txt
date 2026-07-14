@@ -1,0 +1,3 @@
+# 策略轮询配置
+# 每15分钟执行一次
+*/15 * * * * cd /path/to/workspace && /usr/bin/python3 strategy_trade.py >> /path/to/workspace/data/strategy_cron.log 2>&1
